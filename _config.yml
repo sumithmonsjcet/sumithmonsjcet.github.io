@@ -1,0 +1,25 @@
+domain: example.com
+url: https://example.com
+
+title: Wind
+email: wind@example.com
+author: Wind Sample
+
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+
+# disqus:
+#   shortname: example-com
+#
+# rrss:
+  # discord: hoola
+  # facebook: hola
+  # twitter: Hola
+  # instagram: Hola
+  # linkedin: Hola
+  # pinterest: hola
+  # whatsapp: 123
+  # telegram: 123
+  # email: email
