@@ -2,6 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 <title>MCA_SJCET</title>
+<script>
+    function checkPassword1() {
+        var password = prompt("Please enter the password:");
+        if (password === "321") { // Replace "your_password_here" with your actual password
+            window.location.href = "nba/parta.pdf";
+        } else {
+            alert("Incorrect password. Access denied.");
+        }
+    }
+	function checkPassword2() {
+        var password = prompt("Please enter the password:");
+        if (password === "321") { // Replace "your_password_here" with your actual password
+            window.location.href = "nba/partb.pdf";
+        } else {
+            alert("Incorrect password. Access denied.");
+        }
+    }
+</script>
 <style> li a 
 
         li a:hover {
@@ -132,8 +150,8 @@
 			<h2 id="nba">NBA</a></h2>
 			
 			   <ul>
-        <li><a href="nba/parta1.pdf"  style="color: #3498db;">Part-A</a></li>
-		  <li><a href="nba/partb1.pdf"  style="color: #3498db;">Part-B</a></li>
+         <li><a href="javascript:void(0);" onclick="checkPassword1()" style="color: #3498db;">Part-A</a></li>
+    <li><a href="javascript:void(0);" onclick="checkPassword2()" style="color: #3498db;">Part-B</a></li>
 		               </ul>
 			<h2 id="lib">Library</a></h2>
 			
